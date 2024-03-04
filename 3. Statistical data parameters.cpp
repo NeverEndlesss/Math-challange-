@@ -83,7 +83,7 @@ int main() {
 			for (int i = 0; i < n; i++) {
 				roznica += std::pow(liczby[i] - srednia, 2);
 			}
-			double odchylenie = std::sqrt(roznica / (n - 1));
+			double odchylenie = std::sqrt(roznica / n);
 			std::cout << "Odchylenie standardowe wynosi: " << odchylenie << std::endl;
 			break;
 		}
